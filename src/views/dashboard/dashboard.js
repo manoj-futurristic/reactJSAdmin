@@ -3,12 +3,13 @@ import Users from './users';
 import NotFound from '../../components/page-not-found'
 import { useState } from "react";
 import CreateUser from './create-user';
+import Posts from './posts';
 
 
 const pages = [
     <Users />,
     <CreateUser />,
-    <Users />,
+    <Posts />,
     <NotFound />,
     <Users />,
 ];

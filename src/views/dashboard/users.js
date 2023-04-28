@@ -39,7 +39,7 @@ const Users = () => {
                                 <tbody>
                                     {users.map((user) =>
                                         <tr>
-                                            <td>
+                                            <td className="tr-css">
                                                 <div class="d-flex align-items-center">
                                                     <img
                                                         src={`https://picsum.photos/250?image=${users.indexOf(user) + 50}`}

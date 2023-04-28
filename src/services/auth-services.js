@@ -1,5 +1,6 @@
 
 const BashUrl = "https://social-gwp6.onrender.com"
+// const BashUrl = "http://localhost:4500"
 
 export  async function adminLogin ( email, password ){
         const response = await fetch(`${BashUrl}/auth/login`, {
