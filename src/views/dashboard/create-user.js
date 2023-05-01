@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { addUser } from '../../services/auth-services';
-import authImg  from '../../assets/images/auth.gif'
+import authImg from '../../assets/images/form.png'
 
 
 
@@ -8,7 +8,6 @@ import authImg  from '../../assets/images/auth.gif'
 const CreateUser = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-
     const [message, setMessage] = useState();
 
     const addUserSubmit = (e) => {
@@ -71,7 +70,7 @@ const CreateUser = () => {
                     </div>
                     <div className="col-md-9 col-lg-6 col-xl-5">
                         <img src={authImg}
-                            className="img-fluid" alt="" />
+                            className="img-fluid" alt="" style={{transform: 'scaleX(-1)'}} />
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import { getUsers } from "../../services/auth-services";
 import { useState, useEffect } from "react";
 import Loader from "../../components/loader";
+import Chart from "./chart";
 
 
 
@@ -20,6 +21,7 @@ const Users = () => {
 
     return (
         <>
+        {/* <Chart/> */}
             {
                 loading ? (
                     <Loader />

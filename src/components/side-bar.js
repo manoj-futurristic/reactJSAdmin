@@ -33,10 +33,10 @@ function Sidebar({ stateChanger }) {
 
                 <nav id='sidebarMenu'>
                     <div class="w3-sidebar w3-bar-block w3-black w3-xxlarge sized" >
-                        <div class="w3-bar-item w3-button" onClick={() => { stateChanger(0) }}><i class="fa fa-home"></i></div>
+                        <div class="w3-bar-item w3-button" onClick={() => { stateChanger(0) }}><i class="fa fa-home fa-beat"></i></div>
                         <div class="w3-bar-item w3-button" onClick={() => { stateChanger(1) }}><i class="fa fa-user-plus"></i></div>
-                        <div class="w3-bar-item w3-button" onClick={() => { stateChanger(2) }}><i class="fa fa-envelope"></i></div>
-                        <div class="w3-bar-item w3-button" onClick={() => { stateChanger(3) }}><i class="fa fa-globe"></i></div>
+                        <div class="w3-bar-item w3-button" onClick={() => { stateChanger(2) }}><i class="fa fa-list"></i></div>
+                        <div class="w3-bar-item w3-button" onClick={() => { stateChanger(3) }}><i class="fa fa-plus"></i></div>
                         <div class="w3-bar-item w3-button" onClick={() => { stateChanger(4) }} ><i class="fa fa-trash"></i></div>
                     </div>
                 </nav>

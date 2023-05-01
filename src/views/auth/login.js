@@ -19,6 +19,8 @@ const Login = () => {
             if(response['status'] === 200){
                 setMessage(response['message']);
                 localStorage.setItem('isLogin', true);
+                localStorage.setItem('id', response.data._id);
+
                 setTimeout(()=>{navigate('dashboard');},500)
             }else{
                 setMessage(response['message']);
